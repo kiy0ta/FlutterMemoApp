@@ -22,7 +22,8 @@ class _TopPageState extends State<TopPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+
+        title: const Text('FlutterMemoApp'),
       ),
       body: Center(
         child: Column(
